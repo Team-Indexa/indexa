@@ -1,25 +1,42 @@
-# Owl Indexa
+# Indexa
 
-**Indexa** is a high-performance web crawler and search engine capable of indexing thousands of pages and answering complex queries.
+A privacy-first search engine built for performance and quality.
 
-## Features
-*   **High-Speed Crawling**: Efficiently indexes web content.
-*   **Smart Search**: Uses advanced algorithms to rank and retrieve results.
-*   **Private & Secure**: Built with privacy in mind.
+## Documentation
 
-## Installation
-Go to the **[Releases](../../releases)** page to download the latest version of Indexa.
+Comprehensive documentation is available in the `/Docs` folder. Each document covers a specific aspect of Indexa:
 
-1.  Download the binary for your OS.
-2.  Run the executable.
+### [Search Architecture](Docs/search.md)
+Technical deep-dive into how Indexa's search system works. Covers the hybrid multi-signal approach, including query processing, parallel retrieval methods (full-text and semantic search), multi-signal ranking with four distinct signals, result diversification strategies, and performance optimizations. Essential reading for understanding the search engine's core methodology.
 
-## Usage
-```bash
-./indexa start
-```
+### [Features](Docs/features.md)
+Complete overview of Indexa's user-facing features and capabilities. Describes what makes Indexa unique and how different features enhance the search experience.
+
+### [Technical Overview](Docs/tech.md)
+System architecture and technical implementation details. Covers the technology stack, infrastructure design, scalability considerations, and development practices.
+
+### [Business Model](Docs/business.md)
+Explanation of how Indexa operates as a business, including revenue model, sustainability strategy, and long-term vision.
+
+### [Privacy Policy](Docs/privacy.md)
+Detailed privacy policy outlining data collection practices, user rights, and privacy commitments. Describes how Indexa protects user information and maintains privacy-first principles.
+
+### [Terms of Service](Docs/terms.md)
+Legal terms and conditions for using Indexa. Covers user responsibilities, acceptable use policies, disclaimers, and service limitations.
+
+### [FAQ](Docs/faq.md)
+Frequently asked questions about Indexa. Common queries about functionality, privacy, performance, and general usage.
+
+---
+
+## Quick Start
+
+Visit the documentation above to learn more about specific aspects of Indexa. For technical implementation details, start with the [Technical Overview](Docs/tech.md) and [Search Architecture](Docs/search.md).
+
+## Contributing
+
+Information about contributing to Indexa can be found in the technical documentation.
 
 ## License
-Copyright (c) 2026 Owl LLC. All rights reserved.
-BINARY DISTRIBUTION ONLY. Source code is closed.
 
-
+See LICENSE file for details.
