@@ -33,9 +33,23 @@ Comprehensive frequently asked questions covering all aspects of Indexa. Include
 
 Visit the documentation above to learn more about specific aspects of Indexa. For technical implementation details, start with the [Technical Overview](Docs/tech.md) and [Search Architecture](Docs/search.md).
 
+## Community
+
+Join the Indexa community and connect with other users and developers!
+
+**[GitHub Discussions](https://github.com/Team-Indexa/indexa/discussions)** - Ask questions, share ideas, and get help
+
+- **💬 [General Discussion](https://github.com/Team-Indexa/indexa/discussions/categories/general)** - Talk about Indexa and privacy-first search
+- **❓ [Q&A](https://github.com/Team-Indexa/indexa/discussions/categories/q-a)** - Get help and ask questions
+- **💡 [Feature Requests](https://github.com/Team-Indexa/indexa/discussions/categories/feature-requests)** - Suggest new features
+- **🐛 [Bug Reports](https://github.com/Team-Indexa/indexa/discussions/categories/bugs)** - Report issues
+- **🎨 [Show & Tell](https://github.com/Team-Indexa/indexa/discussions/categories/show-and-tell)** - Share your integrations
+
+Please read our [Community Guidelines](.github/COMMUNITY_GUIDELINES.md) before participating.
+
 ## Contributing
 
-Information about contributing to Indexa can be found in the technical documentation.
+We welcome contributions! Information about contributing to Indexa can be found in the technical documentation. Check our [GitHub Discussions](https://github.com/Team-Indexa/indexa/discussions) to connect with the community.
 
 ## License
 

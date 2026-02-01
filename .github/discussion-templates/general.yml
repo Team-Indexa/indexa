@@ -1,0 +1,60 @@
+labels: ["discussion"]
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## General Discussion
+        
+        Start a conversation about Indexa, privacy-first search, or related topics.
+        
+        **This space is for:**
+        - General discussions about search technology
+        - Privacy and data protection topics
+        - Ideas and brainstorming
+        - Community feedback
+        - Meta discussions about the project
+        
+        **Please use specific templates for:**
+        - Questions → Q&A template
+        - Bug reports → Bug template
+        - Feature requests → Feature template
+
+  - type: textarea
+    id: discussion
+    attributes:
+      label: "Discussion Topic"
+      description: "What would you like to discuss?"
+      placeholder: "I'd like to discuss..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: topic-category
+    attributes:
+      label: "Topic Category"
+      description: "What's this about?"
+      options:
+        - Search technology
+        - Privacy and security
+        - Project direction
+        - Community feedback
+        - Documentation
+        - Integration ideas
+        - Performance
+        - Comparison with other search engines
+        - Open source community
+        - Other
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: guidelines
+    attributes:
+      label: "Community Guidelines"
+      description: "Please confirm you'll follow our guidelines:"
+      options:
+        - label: "I'll be respectful and professional"
+          required: true
+        - label: "I understand this is an open, public discussion"
+          required: true

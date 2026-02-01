@@ -1,0 +1,90 @@
+labels: ["showcase"]
+title: "[Show & Tell] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Show & Tell
+        
+        Share what you've built with Indexa!
+        
+        **Examples:**
+        - API integrations
+        - Custom frontends
+        - Browser extensions
+        - Mobile apps
+        - Analytics dashboards
+        - Use cases and implementations
+        - Community tools
+
+  - type: textarea
+    id: project
+    attributes:
+      label: "What Did You Build?"
+      description: "Tell us about your project or integration"
+      placeholder: "I built a..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "How Does It Work?"
+      description: "Describe how you're using Indexa"
+      placeholder: "It uses the Indexa API to..."
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: "Project Link"
+      description: "GitHub repo, website, or demo link"
+      placeholder: "https://github.com/username/project"
+    validations:
+      required: false
+
+  - type: textarea
+    id: tech-stack
+    attributes:
+      label: "Tech Stack"
+      description: "What technologies did you use?"
+      placeholder: "React, Node.js, Indexa API..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots/Demo"
+      description: "Show us what it looks like!"
+      placeholder: "Drag and drop images or GIFs here..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Project Category"
+      description: "What type of project is this?"
+      options:
+        - Web Application
+        - Mobile App
+        - Browser Extension
+        - API Integration
+        - Self-hosted Setup
+        - Analytics/Dashboard
+        - Developer Tool
+        - Educational/Tutorial
+        - Other
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: feedback
+    attributes:
+      label: "Looking for feedback?"
+      options:
+        - label: "I'd appreciate feedback and suggestions"
+        - label: "This is open source (link provided)"
+        - label: "Looking for collaborators"

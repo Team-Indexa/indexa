@@ -1,0 +1,86 @@
+labels: ["enhancement", "feature-request"]
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+        
+        Suggest a new feature or enhancement for Indexa.
+        
+        **Before submitting:**
+        - Check the [Roadmap](https://github.com/Team-Indexa/indexa/discussions) for planned features
+        - Search existing feature requests
+        - Review our [Features documentation](https://github.com/Team-Indexa/indexa/blob/main/Docs/features.md)
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem Statement"
+      description: "What problem would this feature solve? What is the use case?"
+      placeholder: "As a user, I would like to... because..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Proposed Solution"
+      description: "Describe the feature you'd like to see implemented"
+      placeholder: "I'd like Indexa to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives Considered"
+      description: "What alternatives have you considered? How do other search engines handle this?"
+      placeholder: "Google does this by... DuckDuckGo has..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Feature Category"
+      description: "What area does this feature relate to?"
+      options:
+        - Search functionality
+        - Dufus AI
+        - User Interface
+        - Privacy features
+        - Shopping Search
+        - Image Search
+        - API & Integration
+        - Performance
+        - Mobile/Browser Extension
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "Priority (Your Opinion)"
+      description: "How important is this to you?"
+      options:
+        - Critical - Blocker for adoption
+        - High - Would significantly improve experience
+        - Medium - Nice to have
+        - Low - Minor enhancement
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Pre-submission Checklist"
+      description: "Please confirm:"
+      options:
+        - label: "I've searched for similar feature requests"
+          required: true
+        - label: "This feature aligns with Indexa's privacy-first principles"
+          required: true
+        - label: "I've provided clear use cases and benefits"
+          required: true
