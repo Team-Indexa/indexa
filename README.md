@@ -1,4 +1,4 @@
-# Indexa
+![Indexa](Assets/indexa.png)
 
 A privacy-first search engine built for performance and quality.
 
@@ -22,7 +22,7 @@ Comprehensive business strategy and revenue model. Details four core revenue str
 Comprehensive privacy policy with complete transparency on data practices. Covers what information is and isn't collected, data retention policies, security measures, user rights (access, deletion, correction, opt-out), regional compliance (GDPR, CCPA, PIPEDA, DPDP), cookies and tracking, feature-specific privacy details, and contact information. Core principle: minimal data collection, no tracking, no selling of personal information.
 
 ### [Terms of Service](Docs/terms.md)
-Legal terms and conditions for using Indexa. Covers user responsibilities, acceptable use policies, disclaimers, and service limitations.
+Complete legal terms governing Indexa usage. Covers use license and restrictions, OwlGuard account terms, acceptable use policy, intellectual property rights, API developer terms, disclaimers and liability limitations, indemnification, dispute resolution (arbitration and governing law), termination policies, fees and payments, region-specific terms (GDPR, CCPA, PIPEDA), and contact information. Includes definitions, special provisions, and acknowledgment of agreement.
 
 ### [FAQ](Docs/faq.md)
 Frequently asked questions about Indexa. Common queries about functionality, privacy, performance, and general usage.

@@ -1,3 +1,5 @@
+![Indexa](../Assets/indexa.png)
+
 # Business Model
 
 ## Revenue Philosophy

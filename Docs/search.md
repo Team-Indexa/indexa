@@ -1,3 +1,5 @@
+![Indexa](../Assets/indexa.png)
+
 # Search Architecture
 
 ## Overview

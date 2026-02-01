@@ -1,3 +1,5 @@
+![Indexa](../Assets/indexa.png)
+
 # Privacy Policy for Indexa
 
 **Effective Date:** February 1, 2026  

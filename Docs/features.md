@@ -1,3 +1,5 @@
+![Indexa](../Assets/indexa.png)
+
 # Features
 
 ## Core Search Engine
