@@ -40,3 +40,4 @@ Information about contributing to Indexa can be found in the technical documenta
 ## License
 
 See LICENSE file for details.
+
