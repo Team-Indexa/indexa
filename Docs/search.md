@@ -4,7 +4,7 @@
 
 ## Overview
 
-Indexa implements a hybrid multi-signal search system designed to deliver high-quality search results through the combination of multiple retrieval and ranking techniques. The architecture prioritizes both precision and recall while maintaining user privacy through local processing.
+Hey there, this document discusses the architecture behind Indexa. I have implemented a hybrid multi-signal search system capable of delivering high-quality search results through the combination of multiple retrieval and ranking techniques. The architecture prioritizes both precision and recall while maintaining user privacy through local processing.
 
 ## System Architecture
 
@@ -14,10 +14,10 @@ When a search query is received, it undergoes several preprocessing steps:
 
 **Spell Correction**
 - Validates query terms against a dynamically-built dictionary
-- Dictionary is populated from frequently searched terms
-- Automatically suggests corrections for misspelled queries
+- This dictionary is populated from frequently searched terms
+- So it automatically suggests corrections for misspelled queries
 
-Note: This is still quite flawed, but it is getting better with more use.
+Note: This is still quite flawed, but it is getting better.
 
 **Query Expansion**
 - Applies to concise queries (three words or fewer)
@@ -27,7 +27,7 @@ Note: This is still quite flawed, but it is getting better with more use.
 
 ### Retrieval Methods
 
-Indexa employs parallel retrieval using two complementary approaches:
+Indexa also has a parallel retrieval system with two complementary approaches:
 
 #### Full-Text Search (Primary Signal - 60%)
 
